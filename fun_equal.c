@@ -7,7 +7,9 @@ typedef struct node {
 
 /* FIXME: this function is buggy. */
 int fun_equal(const node* a, const node* b) {
-	while (a != NULL) {
+	// while (a != NULL) { Causes a problem when b hits NULL before A
+	// To fix, check if a or b are equal to NULL
+	while (a != NULL && b != NULL) {
 		if (a->val != b->val)
 			return 0;
 		a = a->next;

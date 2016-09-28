@@ -1,29 +1,25 @@
-NAME: 
-LOGIN: 
+NAME: Tom Lenz
+LOGIN: The2b
 
-NAME:
-LOGIN:
+NAME: Nick Berg
+LOGIN: ChaunceyVonSnufflesTheThird
 
-NAME:
-LOGIN:
+NAME: Kyle Kovack
+LOGIN: Kyle856
 
-GROUP: 
-
-
-Deliverables #1
+GROUP: Team Low Expectations
 
 
-
-
-
-
-Deliverables #2
+Deliverables #1: Comments in preproc.c
 
 
 
 
 
-Deliverables #3
+Deliverables #2: ./deliverable2.txt
 
 
 
+
+
+Deliverables #3: Comments in fun_equals.c
