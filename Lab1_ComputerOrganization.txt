@@ -6,7 +6,7 @@ LOGIN: elizabethsamoska
 
 NAME: Shelby Curry
 LOGIN:shelbyrcurry
-
+Grade 85%
 GROUP: 
 
 
@@ -20,7 +20,7 @@ Change the top values to:
 Deliverables #2
 
 How do you pass command line arguments to a program when using gdb? 
-You can pass line arguments using “r args”.  Also you can use set args and then once it is executed, you can use show args to inspect it or debug it.  
+You can pass line arguments using â€œr argsâ€.  Also you can use set args and then once it is executed, you can use show args to inspect it or debug it.  
 How do you set a breakpoint which only occurs when a set of conditions is true (e.g. when certain variables are a certain value)? 
 The command to set a break point is Break.  After the command break is given, the user will type in the file name and execute the debugging process. 
 How do you execute the next line of C code in the program after stopping at a breakpoint? 
@@ -48,10 +48,10 @@ typedef struct node {
 } node;
 
 /* FIXME: this function is buggy. */
-int fun_equal(const node* a, const node* b) {
+int fun_equal(const node* a, const node* b) { /* Not the answwer: have you tested? I doubt it will work.
 	while (a != NULL) {
 		if(a->val != b->val){           /*there was no brackets for if statement*/
-        return 0;
+        return 0;				/* After this the function will return */
 		a = a->next;
 		b = b->next;
 		}else{                          /*else was not in the while loop and there was no else statement to begin with*/
